@@ -23,7 +23,6 @@ public class Server {
                 }
                 System.out.println("Сообщение от клиента: " + message);
                 out.writeUTF(message);
-
             }
         } catch (IOException e) {
             e.printStackTrace();

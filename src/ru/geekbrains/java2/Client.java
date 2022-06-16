@@ -26,7 +26,6 @@ public class Client {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     private void sendMessage(String message) {
